@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Mukta:wght@200&display=swap');
+#container-1 {
+    background-color: #F7F6F4;
+    font-family: "SF Pro", sans-serif;
+    font-size: 13.5px;
+    font-weight: 600;
+    line-height: 19.35px;
+}
+
+#cor {
+    text-decoration: none;
+    color: #506687;
+}
+
+#cor .col-3 {
+    transform: translateY(0px);
+}
+.call-link {
+    text-decoration: none;
+    color: #1DA1F2;
+    font-weight: 500;
+}
+
+#container-2 {
+    background-color: #ECE8D9;
+}
+
+.nav-item {
+    color: rgb(75, 99, 130);
+    font-family: "SF Pro", sans-serif;
+    line-height: 21.75px;
+    font-size: 14.5px;
+    font-weight: 600;
+}
+#quality {
+    color:#384a62;
+    font-size: 67.2px;
+    line-height: 40px;
+    font-family: "dm serif display";
+    font-weight: 400;
+}
+#shipped {
+    color:#708095;
+    font-family: "SF Pro", sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 540;
+}
+.btn {
+    transform: translate(-80px,-7px);
+}
+#hand {
+    transform: translate(40px,20px);
+}
+label.form-label {
+    font-family: "SF Pro", sans-serif;
+    color:#384a62;
+    font-size: 16px;
+    font-weight: 700;
+}
+.card-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    font-family: "SF Pro", sans-serif;
+    color:rgb(56, 74, 98)
+}
+#start {
+    font-family: "SF Pro", sans-serif;
+    color:rgb(112, 128, 149);
+    font-size: 12.8px;
+    font-weight: 700;
+    letter-spacing: 0.64px;
+}
+#text {
+    font-family: "SF Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.64px;
+    color:rgb(56, 74, 98)
+}
+.spanper {
+    font-size: 14.4px;
+    color:rgb(112, 128, 149);
+}
+#button {
+    background-color: #D77F81;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+#popu {
+    font-family: "dm serif display";
+    font-size: 30px;
+    font-weight: 400;
+    color:rgb(56, 74, 98);
+}
+
+.card-img-top {
+    transition: scale .2s;
+}
+.card-img-top:hover {
+    transform: scale(1.02,1.02);
+}
+#print-services {
+    color:rgb(80, 102, 131);
+    font-family: "SF Pro", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+    line-height: 28px;
+}
+#customers-say {
+    background-color: #EDF6FD;
+}
+#custy {
+    font-family: "dm serif display";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    color:rgb(56, 74, 98);
+}
+#para1 {
+    font-family: "SF Pro", sans-serif;
+    color:rgb(56, 74, 98);
+    font-size: 15.5px;
+    font-weight: 400;
+}
