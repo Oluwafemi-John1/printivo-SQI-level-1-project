@@ -90,6 +90,15 @@ label.form-label {
     color: white;
     font-weight: 500;
 }
+#button:hover {
+    transform: translateX(5px);
+}
+.transy {
+    transition: translateX .2s;
+}
+.transy:hover {
+    transform: translate(20px, 30px);
+}
 #popu {
     font-family: "dm serif display";
     font-size: 30px;
@@ -129,4 +138,19 @@ label.form-label {
 }
 #amazing-work {
     background-color: #F7F6F4;
+}
+#amazing{
+    font-family: "SF Pro", sans-serif;
+    color:rgb(56, 74, 98);
+    font-size: 15px;
+    font-weight: 600;
+}
+#newsletter {
+    background-color: #ECE8D9;
+}
+.sub {
+    font-family: "SF Pro", sans-serif;
+    font-weight: 550;
+    color:rgb(56, 74, 98);
+    font-size: 25px;
 }
