@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Mukta:wght@200&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    overflow-x: hidden;
+}
 #container-1 {
     background-color: #F7F6F4;
     font-family: "SF Pro", sans-serif;
@@ -153,4 +160,10 @@ label.form-label {
     font-weight: 550;
     color:rgb(56, 74, 98);
     font-size: 25px;
+}
+#buttona {
+    transform: translate(-140px,3.5px);
+}
+#section-last {
+    background-color: #384A62;
 }
