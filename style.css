@@ -30,6 +30,7 @@ html, body {
 
 #container-2 {
     background-color: #ECE8D9;
+    position: relative;
 }
 
 .nav-item {
@@ -173,4 +174,38 @@ label.form-label {
 #ul li a {
     text-decoration: none;
     color: white;
+}
+h4.ms-4 {
+    color:rgb(236, 232, 217);
+    font-family: "SF Pro", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    padding:0px 0px 16px;
+}
+ul#ul li a {
+    font-family: "SF Pro", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+
+}
+#copycopy {
+    color:rgb(56, 74, 98);
+    background-color:#cbcac8;
+    padding: 32px 0px;
+    text-align: center;
+}
+.copyright {
+    font-family: "SF Pro", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0px 100px;
+    padding: 0px 20px;
+}
+#nava {
+    position: sticky;
+    top: 0;
+    z-index: 99;
 }
