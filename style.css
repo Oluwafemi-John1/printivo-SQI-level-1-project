@@ -167,3 +167,10 @@ label.form-label {
 #section-last {
     background-color: #384A62;
 }
+#ul {
+    list-style: none;
+}
+#ul li a {
+    text-decoration: none;
+    color: white;
+}
