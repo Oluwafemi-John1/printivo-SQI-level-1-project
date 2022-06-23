@@ -30,7 +30,8 @@ html, body {
 
 #container-2 {
     background-color: #ECE8D9;
-    position: relative;
+    
+    /* position: relative;   */
 }
 
 .nav-item {
@@ -58,7 +59,7 @@ html, body {
     transform: translate(-80px,-7px);
 }
 #hand {
-    transform: translate(40px,20px);
+   transform: translateX(10px);
 }
 label.form-label {
     font-family: "SF Pro", sans-serif;
@@ -205,7 +206,6 @@ ul#ul li a {
     padding: 0px 20px;
 }
 #nava {
-    position: sticky;
-    top: 0;
-    z-index: 99;
+    position: sticky !important;
+    top: 0 !important;
 }
