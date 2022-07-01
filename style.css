@@ -206,10 +206,12 @@ ul#ul li a {
     padding: 0px 20px;
 }
 #nava {
-    position: sticky;
+    position: sticky !important;
     top: 0;
-    left: 1;
-    min-height: 0;
-    /* width: 92.9vw; */
-    z-index: 10;
+    z-index: 1;
+}
+#nava2 {
+    position: sticky !important;
+    top: 0;
+    z-index: 100 !important;
 }

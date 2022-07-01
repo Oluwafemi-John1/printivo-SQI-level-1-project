@@ -1,8 +1,19 @@
-@media only screen and (max-width: 390px){
+@media screen and (max-width: 450px){
     .corp{
         display: none;
     }
     #numb{
         transform: translate(20px,90px);
+    }
+    #whatimg {
+        transform: translate(140px, -35px);
+    }
+    .pot {
+        width: 130px;
+        display: flex;
+        transform: translate(230px,-80px);
+    }
+    section#container-2.border-2.row {
+        transform: translateY(-60px);
     }
 }
