@@ -5,6 +5,9 @@
     #numb{
         transform: translate(20px,90px);
     }
+    #hand {
+        display: none;
+    }
     #whatimg {
         transform: translate(140px, -35px);
     }
