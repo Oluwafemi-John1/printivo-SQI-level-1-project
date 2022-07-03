@@ -164,8 +164,29 @@ label.form-label {
     font-size: 25px;
 }
 #buttona {
-    transform: translate(-140px,3.5px);
+    transform: translate(700px,-75px);
 }
+
+@media screen and (max-width:785px) {
+    #buttona {
+        transform: translate(400px, -75px);
+    }
+    #whatimg {
+        transform: translate(350px, -35px);
+    }
+    #cor {
+        transform: translate(490px, -85px);
+    }
+    #container-2 {
+        transform: translateY(-50px);
+    }
+    #hand {
+        width: 200;
+        height: 150;
+        transform: translate(20px,283px);
+    }
+}
+
 #section-last {
     background-color: #384A62;
 }
