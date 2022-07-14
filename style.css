@@ -110,6 +110,12 @@ label.form-label {
     font-weight: 400;
     color:rgb(56, 74, 98);
 }
+#popu2 {
+    font-family: "dm serif display";
+    font-size: 30px;
+    font-weight: 400;
+    color:rgb(56, 74, 98);
+}
 
 .card-img-top {
     transition: scale .2s;
@@ -160,7 +166,7 @@ label.form-label {
     font-size: 25px;
 }
 #buttona {
-    transform: translate(-200px,15px);
+    transform: translate(700px,-87px);
 }
 
 @media screen and (max-width:890px) {

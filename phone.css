@@ -41,4 +41,22 @@
     #seeall {
         font-size: 15px;
     }
+    #phonyup {
+        transform: translateY(-60px);
+    }
+    #phonyup2 {
+        transform: translateY(-60px);
+    }
+    #phony3 {
+        transform: translateY(-150px);
+    }
+    #popu2 {
+        font-size: 25px;
+    }
+    #print-services {
+        font-size: 15px;
+    }
+    #customers-say {
+        transform: translateY(-130px);
+    }
 }
