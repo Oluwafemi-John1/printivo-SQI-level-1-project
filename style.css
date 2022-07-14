@@ -18,10 +18,6 @@ html, body {
     text-decoration: none;
     color: #506687;
 }
-
-#cor .col-3 {
-    transform: translateY(0px);
-}
 .call-link {
     text-decoration: none;
     color: #1DA1F2;
@@ -164,12 +160,12 @@ label.form-label {
     font-size: 25px;
 }
 #buttona {
-    transform: translate(700px,-75px);
+    transform: translate(-200px,15px);
 }
 
-@media screen and (max-width:785px) {
+@media screen and (max-width:890px) {
     #buttona {
-        transform: translate(400px, -75px);
+        transform: translate(460px, -85px);
     }
     #whatimg {
         transform: translate(350px, -35px);
@@ -183,8 +179,11 @@ label.form-label {
     #hand {
         width: 200;
         height: 150;
-        transform: translate(20px,283px);
+        transform: translate(20px,253px);
     }
+    /* #corptate {
+        transform: translateX(150px);
+    } */
 }
 
 #section-last {

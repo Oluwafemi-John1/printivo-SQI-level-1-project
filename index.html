@@ -14,7 +14,7 @@
     <!-- Section containing the header -->
     <section class="row border-2 align-items-center p-1" id="container-1">
         <!-- Div containing the first section of the header -->
-        <div class="col-4 d-flex mx-1 align-items-center justify-start items-center p-3 ms-5">
+        <div class="col-4 d-flex mx-1 align-items-center justify-start items-center p-3 ms-5" id="corptate">
             <div class="mx-5 ms-5"><a href="https://printivo.com/business" id="cor" class="corp">Corporate Pricing</a></div>
             <div class="ms-2 me-2"><a href="https://printivo.com/stores" id="cor" class="corp">Discover Stores</a></div>
             <div class="ms-5 me-2"><a href="https://printivo.com/track" id="cor" class="corp">Track Orders</a></div>
@@ -36,9 +36,9 @@
         <!-- <div class="col-1"></div> -->
 
         <!-- Div containing the fourth section of the header -->
-        <button class="pot col-lg-1 col-md-3 border row p-2 rounded-pill align-items-center" id="cor">
-            <span class="col-lg-3"><img src="images/nigeria.png" alt="" width="18"></span>
-            <span class="col-lg-7">Nigeria</span>
+        <button class="pot col-lg-1 col-md-3 col-sm-1 border row p-2 rounded-pill align-items-center" id="cor">
+            <span class="col-lg-3 col-md-3 col-sm-3"><img src="images/nigeria.png" alt="" width="18"></span>
+            <span class="col-lg-7 col-md-7 col-sm-3">Nigeria</span>
         </button>
     </section>
 
@@ -46,11 +46,11 @@
         <!-- Navigation bar -->
             <nav class="navbar navbar-expand-sm border-warning sticky-top" id="nava">
                 <div class="container-fluid ms-5 mb-1 row pt-3" id="nava2">
-                    <a href="#" class="navbar-brand ms-lg-5 ms-md-0 col-3"><img src="images/download (1).svg" alt="" width="140"></a>
+                    <a href="#" class="navbar-brand ms-lg-5 ms-sm-0 ms-md-0 col-3"><img src="images/download (1).svg" alt="" width="140"></a>
             
                     <div class="collapse navbar-collapse col-6 mb-2" id="navbarsExample03">
                         <!-- First set of unordered list -->
-                        <ul class="navbar-nav ms-lg-4 ms-md-0 mb-2">
+                        <ul class="navbar-nav ms-lg-5 ms-md-0 mb-2">
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="#">Home</a>
                             </li>
@@ -66,7 +66,7 @@
                         </ul>
                         <!-- Second set of unordered list -->
                         <ul class="navbar-nav ms-lg-4 mb-2">
-                            <li class="nav-item ms-1">
+                            <li class="nav-item ms-1" id="link">
                                 <a class="nav-link" aria-current="page" href="#" style="color: #D77F81;">Sign in</a>
                             </li>
                             <li class="nav-item ms-1">
@@ -82,14 +82,14 @@
 
         <!-- Below navbar -->
         <div class="container-fluid row mt-4 border-3 border-danger ms-0">
-            <div class="col-6 ms-5 p-5">
+            <div class="col-lg-6 col-sm-12 ms-lg-5 p-5">
                 <div class="mb-4" id="quality">Quality Prints</div>
-                <div class="mb-5" id="shipped">Shipped to your your doorstep</div>
+                <div class="mb-5" id="shipped">Shipped to your doorstep</div>
                 <div>
                     <label for="likeToPrint" class="form-label">What would you like to print today?</label>
                     <div class="d-flex">
                         <input type="text" class="form-control bg-light p-4 mb-3" id="otherName" placeholder="Search for Business cards, T-shirts, Mugs, etc">
-                        <button class="btn btn-link" type="submit"><img src="images/download (2).svg" alt=""></button>
+                        <button class="btn btn-link" type="submit" id="searchIcon"><img src="images/download (2).svg" alt=""></button>
                     </div>
                 </div>
             </div>
@@ -102,16 +102,16 @@
         </div>
     </section>
 
-    <section class="row border-3 ms-5 me-5">
+    <section class="row border-3 ms-5 me-5" id="popularproducts">
         <!-- Head section of cards -->
-        <div class="row-lg d-md-flex mt-5 mb-3">
+        <div class="row-lg d-sm-flex d-md-flex mt-5 mb-3">
             <h3 class="col-lg-9 col-md-5 ms-lg-5" id="popu">Popular Products</h3>
-            <div class="col-lg-2 col-md-5 ms-4 p-0 text-end"><a href="https://printivo.com/all-products" style="color: #D77F81; text-decoration: none; font-weight: 500;">See All Products</a></div>
+            <div class="col-lg-2 col-md-5 ms-lg-4 p-0 text-end" id="seeall"><a href="https://printivo.com/all-products" style="color: #D77F81; text-decoration: none; font-weight: 500;">See All Products</a></div>
         </div>
 
         <!-- Cards, 1st row -->
         <div class="border-3 border-danger row px-lg-5 px-md-0 px-sm-0 py-1 ms-lg-1 mb-3">
-            <div class="card mx-lg-3 mx-sm-0 col-lg col-md-5 mx-md-3 col-sm-12 p-0 mb-md-3 shadow-sm">
+            <div class="card mx-lg-3 mx-sm-0 col-lg col-md-5 mx-md-3 col-sm-12 p-0 mb-md-3 pb-sm-5 shadow-sm">
                 <img height="235" src="images/1.png" alt="" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title mb-4">Two-sided Business Cards</h5>
@@ -296,10 +296,10 @@
     <!-- What customers say -->
     <section class="container-fluid row mt-4 border-3 border-danger ms-0" id="customers-say">
         <div>
-            <div class="row ms-5 mt-5" id="custy">What Customers Say About Us 🙌🏾</div>
+            <div class="row ms-lg-5 ms-md-5 ms-sm-0 mt-5" id="custy">What Customers Say About Us 🙌🏾</div>
 
-            <div class="row mt-3 ms-5 border-warning p-4 mb-5">
-                <div class="border-info col-lg col-md-5 mx-3 p-3 bg-white">
+            <div class="row mt-3 ms-lg-5 ms-sm-0 border-warning p-4 mb-5">
+                <div class="border-info col-lg col-md-5 col-sm-12 mx-lg-3 mx-sm-0 mb-sm-3 mb-lg-0 p-3 bg-white">
                     <div class="d-flex border-success">
                         <img src="images/twitter.png" height="35" class="rounded-circle p-2" alt="">
                         <div class="p-1 border-danger" id="para1">
@@ -317,10 +317,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="border-info col-lg col-md-5 mt-md-3 mx-3 p-3 bg-white">
+                <div class="border-info col-lg col-md-5 mt-md-3 mt-lg-0 mx-3 p-3 bg-white">
                     <div class="d-flex border-success">
                         <img src="images/twitter.png" height="35" class="border rounded-circle p-2" alt="">
-                        <div class="p-1border-danger" id="para1">
+                        <div class="p-1 border-danger" id="para1">
                             <div class="mb-3 mt-1 ms-3 border-info"><strong class="ms-2">Oluwatosin <a style="color:rgb(29, 161, 242); text-decoration: none;" href="https://twitter.com/tosingirlfx">@tosingirlfx</a></strong></div>
                             <div class="border-warning mb-3 ms-4">I am now the unofficial <a style="color:rgb(29, 161, 242); text-decoration: none;" href="https://twitter.com/Printivo">@Printivo</a> <br> ambassador. What these guys just pulled to ensure I got my menu cards today is <br> stunning!</div>
                         </div>
@@ -409,22 +409,22 @@
 
     <!-- Subscribe to our newsletter -->
     <section class="container-fluid row mt-0 border-3 border-danger ms-0" id="newsletter">
-        <div class="row mx-5 ms-lg-5">
-            <div class="mx-auto ms-lg-5 ms-md-0 mt-5">
-                <h5 class="sub ms-lg-5">Subscribe to our newsletter now, and get super exclusive tips on brand building!</h5>
+        <div class="row mx-5 ms-lg-5 ms-md-5 ms-sm-0">
+            <div class="mx-auto ms-lg-5 ms-md-0 ms-sm-0 mt-5">
+                <h5 class="sub ms-lg-5 ms-md-5 ms-sm-0">Subscribe to our newsletter now, and get super exclusive tips on brand building!</h5>
             </div>
 
             <div class="row border-warning ms-lg-5 ms-md-1 w-75 mb-5">
-                <input type="text" class="form-control bg-light p-4 col-lg-3 w-25 col-md-4 col-sm-12 mb-3  ms-lg-5" id="firstName" placeholder="Firstname or Business Name">
-                <input type="text" class="form-control bg-light p-4 mb-3 col-lg-3 w-50 ms-5" id="email" placeholder="Email address">
-                <button id="buttona" class="col-3 pt-0 btn h-lg-75 h-md-50 btn-outline-secondary text-white fs-4 ms-md-5" style="background-color: #384A62; width:fit-content;">Subscribe</button>
+                <input type="text" class="form-control bg-light p-4 col-lg-3 w-25 col-md-6 col-sm-12 mb-3 ms-lg-5" id="firstName" placeholder="Firstname or Business Name">
+                <input type="text" class="form-control bg-light p-4 mb-3 col-lg-3 col-sm-12 w-50 ms-5" id="email" placeholder="Email address">
+                <button id="buttona" class="col-3 pt-0 h-50 btn btn-outline-secondary text-white fs-4 ms-md-5" style="background-color: #384A62; width:fit-content;">Subscribe</button>
             </div>
         </div>
     </section>
     
     <!-- Last container -->
     <section class="container-fluid row border-3 border-danger ms-0 p-5" id="section-last">
-        <div class="col-3 row mx-auto mt-4">
+        <div class="col-lg-3 col-md-3 col-sm-12 row mx-auto mt-4">
             <div class="border-warning col">
                 <h4 class="ms-4" style="color: white;">Printivo</h4>
                 <ul id="ul" class="">
@@ -438,7 +438,7 @@
             </div>
         </div>
 
-        <div class="col-3 row mx-auto mt-4">
+        <div class="col-lg-3 col-md-3 col-sm-12 row mx-auto mt-4">
             <div class="border-warning col">
                 <h4 class="ms-4" style="color: white;">Help and Information</h4>
                 <ul id="ul" class="">
@@ -451,7 +451,7 @@
             </div>
         </div>
 
-        <div class="col-3 row mx-auto mt-4">
+        <div class="col-lg-3 col-md-3 col-sm-12 row mx-auto mt-4">
             <div class="border-warning col">
                 <h4 class="ms-4" style="color: white;">Make Money</h4>
                 <ul id="ul" class="">
@@ -462,7 +462,7 @@
             </div>
         </div>
 
-        <div class="col-3 row mx-auto mt-4">
+        <div class="col-lg-3 col-md-3 col-sm-12 row mx-auto mt-4">
             <div class="border-warning col">
                 <h4 class="ms-4" style="color: white;">Follow Us</h4>
                 <ul id="ul" class="">

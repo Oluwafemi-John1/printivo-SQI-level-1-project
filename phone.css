@@ -17,6 +17,28 @@
         transform: translate(230px,-80px);
     }
     section#container-2.border-2.row {
-        transform: translateY(-60px);
+        transform: translateY(-70px);
+    }
+    #copycopy {
+        padding: 12px 0px;
+    }
+    button#cor {
+        transform: translate(250px,-80px);
+    }
+    #quality {
+        font-size: 45px;
+    }
+    #searchIcon {
+        transform: translate(-40px, -8px);
+    }
+    #popularproducts {
+        transform: translateY(-70px);
+    }
+    #popu {
+        font-size: 15px;
+        transform: translateY(27px);
+    }
+    #seeall {
+        font-size: 15px;
     }
 }
